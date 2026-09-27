@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teranga Sneakers</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Teranga Sneakers</h1>
+    <p>Le style à vos pieds.</p>
+
+    <div id="filtres">
+      <button data-marque="toutes" class="filtre-btn actif">Toutes</button>
+      <button data-marque="Nike" class="filtre-btn">Nike</button>
+      <button data-marque="Jordan" class="filtre-btn">Jordan</button>
+      <button data-marque="New Balance" class="filtre-btn">New Balance</button>
+      <button data-marque="Asics" class="filtre-btn">Asics</button>
+      <button data-marque="Adidas" class="filtre-btn">Adidas</button>
+      <button data-marque="Vans" class="filtre-btn">Vans</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="catalogue"></section>
+
+    <aside id="panier">
+      <h2>Mon panier</h2>
+      <ul id="liste-panier"></ul>
+      <p id="panier-vide">Ton panier est vide.</p>
+      <p>Total : <strong id="total">0 CFA</strong></p>
+      <button id="vider-panier">Vider le panier</button>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Livraison disponible partout au Sénégal.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

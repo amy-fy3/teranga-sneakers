@@ -1,0 +1,27 @@
+Comment ajouter tes photos
+===========================
+
+Dépose tes photos dans ce dossier "images/" avec EXACTEMENT ces noms :
+
+  af1-blanche.jpg    -> Nike Air Force 1 Blanche
+  af1-noire.jpg      -> Nike Air Force 1 Noire
+  dunk-panda.jpg     -> Nike Dunk Low Panda
+  airmax-90.jpg      -> Nike Air Max 90
+  jordan1-mid.jpg    -> Air Jordan 1 Mid
+  jordan1-high.jpg   -> Air Jordan 1 High
+  jordan4.jpg        -> Air Jordan 4
+  nb550.jpg          -> New Balance 550
+  nb574.jpg          -> New Balance 574
+  gelkayano14.jpg    -> Asics Gel-Kayano 14
+  gel1130.jpg        -> Asics Gel-1130
+  samba.jpg          -> Adidas Samba OG
+  gazelle.jpg        -> Adidas Gazelle
+  vans-oldskool.jpg  -> Vans Old Skool
+  vans-sk8hi.jpg     -> Vans Sk8-Hi
+
+Tant qu'une photo n'existe pas encore, l'image reste vide et le
+texte "Photo à venir" s'affiche à la place — le site ne casse pas.
+
+Pour ajouter une nouvelle paire, ouvre script.js et ajoute une ligne
+dans le tableau "sneakers" tout en haut, en suivant le même modèle
+(id unique, marque, nom, categorie, prix, image).
